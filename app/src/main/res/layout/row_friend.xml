@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/Capi"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Capitan América"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/Spiderman"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Spiderman"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/Hulk"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Hulk"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="319dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/Iron"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="IronMan"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/Bruja"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Bruja Escarlata"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="Mapache"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+
+</androidx.appcompat.widget.AppCompatImageView
+
+        android:id="@+id/tvFriend"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/Capi"
+        app:layout_contrainStar_toStartOf:"parent"
+        app:layout_contrainTop_toTopOf:"parent" />
+
+    <TextView
+        android:id="@+id/tvFriendName"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        android:text="Hola"
+        android:textAlignment="center"
+        android:padding="4dp"
+        android:background="@android:color/background_dark"
+        app:layout_contrainStar_toStartOf:"@+id/ivFriend"
+        app:layout_contrainBottom_toBottomOf:"@+id/ivFriend"
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

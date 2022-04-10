@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="GridRecyclerView" type="id" />
+    <item name="ListRecyclerView" type="id" />
+    <item name="ivFriendScore" type="id" />
+</resources>

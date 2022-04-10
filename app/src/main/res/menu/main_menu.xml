@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuList"
+        android:icon="@drawable/Triangulo"
+        android:title="@string/list"/><
+
+    ><item
+        android:id="@+id/menuGrid"
+        android:icon="@drawable/circulo"
+        android:title="@string/grid"/>
+</menu>
+
